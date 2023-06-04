@@ -13,7 +13,7 @@ function addTask(){
         span.innerHTML = "\u00d7"             //just a cross symbol
         li.appendChild(span);
     }
-    inputBox.value = " ";
+    inputBox.value = "";
     saveTask();
 }
  listContainer.addEventListener("click", function(e){
